@@ -1,14 +1,10 @@
-def div(x):
+def primeNumber(x):
     for x in range(x , x+100):
         for y in range(2,x):
             if x%y ==0:
                 break
         else:
             print(x)
+			
+primeNumber(100)
 
-def primeNum(a):
-    while a<=200:
-        div(a)
-        a+=1
-
-primeNum(100)
